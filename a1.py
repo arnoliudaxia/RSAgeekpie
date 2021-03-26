@@ -9,6 +9,4 @@ e=65537
 
 
 d = gmpy2.invert(e,(p-1)*(q-1))
-
-
 print(long_to_bytes(pow(c,d,n)).decode())
